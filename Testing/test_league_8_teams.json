@@ -1,0 +1,35 @@
+{
+  "teams": [
+
+    "Aston Villa",
+    "Bournemouth",
+    "Brentford",
+    "Brighton and Hove Albion",
+    "Chelsea",
+    "Crystal Palace",
+    "Everton",
+    "Fulham"
+  ],
+  "locations_from_teams": {
+
+    "Aston Villa": "Birmingham",
+    "Bournemouth": "Bournemouth",
+    "Brentford": "West London",
+    "Brighton and Hove Albion": "Falmer",
+    "Chelsea": "West London",
+    "Crystal Palace": "London",
+    "Everton": "Liverpool",
+    "Fulham": "West London"
+
+  },
+  "teams_from_locations": {
+
+    "Birmingham": ["Aston Villa"],
+    "Bournemouth": ["Bournemouth"],
+    "West London": ["Brentford", "Chelsea", "Fulham"],
+    "Falmer": ["Brighton and Hove Albion"],
+    "London": ["Crystal Palace"],
+    "Liverpool": ["Everton"]
+
+  }
+}
