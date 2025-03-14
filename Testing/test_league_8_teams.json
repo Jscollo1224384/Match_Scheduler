@@ -10,6 +10,14 @@
     "Everton",
     "Fulham"
   ],
+  "locations": [
+    "Birmingham",
+    "Bournemouth",
+    "West London",
+    "Falmer",
+    "London",
+    "Liverpool"
+  ],
   "locations_from_teams": {
 
     "Aston Villa": "Birmingham",
