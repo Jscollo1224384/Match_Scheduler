@@ -19,6 +19,7 @@ class LeagueTests(unittest.TestCase):
    locations = config_data.get('locations')
    locations_from_teams = config_data.get('locations_from_teams')
    teams_from_locations = config_data.get('teams_from_locations')
+
    def all_leagues_have_unique_teams(self):
        self.assertEquals(len(self.teams), len(set(self.teams)))
 
@@ -36,10 +37,6 @@ class LeagueTests(unittest.TestCase):
    def number_of_matches_is_number_of_teams_multiplied_by_number_of_teams_minus_one(self):
        matches = list(permutations(self.teams, 2))
        self.assertEquals(len(matches), len(self.teams) * (len(self.teams) - 1))
-
-
-
-
 
 
 if __name__ == '__main__':
